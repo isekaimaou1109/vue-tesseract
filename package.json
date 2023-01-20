@@ -1,0 +1,26 @@
+{
+  "name": "vue-tesseract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/vue-tesseract.min.js",
+  "module": "dist/vue-tesseract.esm.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "babel-preset-vue": "^2.0.2",
+    "rollup": "^3.10.0",
+    "rollup-plugin-minify-es": "^1.1.1"
+  },
+  "dependencies": {
+    "tesseract.js": "^4.0.2",
+    "vue-fragment": "^1.6.0"
+  }
+}
