@@ -7,6 +7,7 @@ import {
   OEM,
   PSM
 } from 'tesseract.js';
+import { h } from 'vue';
 import {
   Fragment
 } from 'vue-fragment'
@@ -16,9 +17,9 @@ export const TesseractComponent = {
     OEM,
     PSM
   }),
-  render(createElement) {
-    return createElement(
-      createElement(Fragment),
+  render() {
+    return h(
+      h(Fragment),
       this.$scopedSlots.default({ 
         $oem: this.OEM,
         $psm: this.PSM,
