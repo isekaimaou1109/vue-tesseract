@@ -19,7 +19,7 @@ export const TesseractComponent = {
   }),
   render() {
     return h(
-      h(Fragment),
+      Fragment,
       this.$scopedSlots.default({ 
         $oem: this.OEM,
         $psm: this.PSM,
