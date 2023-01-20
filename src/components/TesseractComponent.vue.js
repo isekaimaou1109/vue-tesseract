@@ -11,7 +11,7 @@ import {
   Fragment
 } from 'vue-fragment'
 
-Vue.component("tesseract", {
+Vue.component("vue-tesseract", {
   template: `
     <fragment>
       <slot :oem="OEM" :psm="PSM" :$recognize="recognize" :$createworker="createWorker" :$createscheduler="createScheduler" :$setlogging="setLogging" :$detect="detect">
