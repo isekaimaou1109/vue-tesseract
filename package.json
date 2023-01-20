@@ -38,5 +38,6 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:isekaimaou1109/vue-tesseract.git"
-  }
+  },
+  "homepage": "https://github.com/isekaimaou1109/vue-tesseract#readme"
 }
