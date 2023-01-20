@@ -1,12 +1,11 @@
 const { babel } = require('@rollup/plugin-babel');
 const commonjs = require('@rollup/plugin-commonjs');
-const minify = require('rollup-plugin-minify-es');
 
 const config = {
   input: 'src/index.js',
   output: [
     {
-      file: 'dist/vue-tesseract.min.js',
+      file: 'dist/vue-tesseract.cjs.js',
       format: 'cjs'
     },
     {
@@ -19,8 +18,7 @@ const config = {
       babelHelpers: 'bundled', exclude: 'node_modules/**' ,
       presets: ['vue']
     }),
-    commonjs(),
-    minify()
+    commonjs()
   ]
 };
 
