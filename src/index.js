@@ -13,5 +13,6 @@ const TesseractPlugin = {
 }
 
 export {
-  TesseractPlugin
+  TesseractPlugin,
+  TesseractComponent
 }
