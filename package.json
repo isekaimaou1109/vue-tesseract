@@ -5,7 +5,9 @@
   "main": "dist/vue-tesseract.min.js",
   "module": "dist/vue-tesseract.esm.js",
   "scripts": {
-    "build": "rollup --config rollup.config.js"
+    "build": "rollup --config rollup.config.js",
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "keywords": [
     "tesseract.js",
