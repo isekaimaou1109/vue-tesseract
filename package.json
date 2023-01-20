@@ -1,6 +1,6 @@
 {
   "name": "vue-tesseracts",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Convert Image-to-Text in vueJS Using Tesseract",
   "main": "dist/vue-tesseract.min.js",
   "module": "dist/vue-tesseract.esm.js",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "tesseract.js": "^4.0.2",
-    "vue": "^3.2.45",
+    "vue": "^2.7.14",
     "vue-fragment": "^1.6.0"
   },
   "bugs": {
