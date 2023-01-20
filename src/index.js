@@ -1,5 +1,5 @@
 import Tesseract from 'tesseract.js';
-import { component } from './components/TesseractComponent.vue.js';
+import { TesseractComponent } from './components/TesseractComponent.vue.js';
 
 const TesseractPlugin = {
   install(Vue) {
@@ -8,7 +8,7 @@ const TesseractPlugin = {
       return Tesseract;
     };
 
-    Vue.component('vue-tesseract', component);
+    Vue.component('vue-tesseract', TesseractComponent);
   }
 }
 
