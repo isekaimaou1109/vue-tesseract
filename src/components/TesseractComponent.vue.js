@@ -11,7 +11,7 @@ import {
   Fragment
 } from 'vue-fragment'
 
-Vue.component("vue-tesseract", {
+export const component = {
   template: `
     <fragment>
       <slot :oem="OEM" :psm="PSM" :$recognize="recognize" :$createworker="createWorker" :$createscheduler="createScheduler" :$setlogging="setLogging" :$detect="detect">
@@ -33,4 +33,4 @@ Vue.component("vue-tesseract", {
     setLogging,
     detect
   }
-});
+}
