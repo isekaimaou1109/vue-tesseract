@@ -1,6 +1,6 @@
 {
   "name": "vue-tesseracts",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Convert Image-to-Text in vueJS Using Tesseract",
   "main": "dist/vue-tesseract.min.js",
   "module": "dist/vue-tesseract.esm.js",
@@ -24,7 +24,6 @@
     "@babel/preset-env": "^7.20.2",
     "@rollup/plugin-babel": "^6.0.3",
     "@rollup/plugin-commonjs": "^24.0.0",
-    "@vue/cli-service": "^5.0.8",
     "babel-preset-vue": "^2.0.2",
     "rollup": "^3.10.0",
     "rollup-plugin-minify-es": "^1.1.1"

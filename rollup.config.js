@@ -1,7 +1,3 @@
-// import { babel } from '@rollup/plugin-babel';
-// import commonjs from '@rollup/plugin-commonjs';
-// import minify from 'rollup-plugin-minify-es';
-
 const { babel } = require('@rollup/plugin-babel');
 const commonjs = require('@rollup/plugin-commonjs');
 const minify = require('rollup-plugin-minify-es');
