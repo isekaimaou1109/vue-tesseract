@@ -2,7 +2,7 @@
 
 
 ## **Description:** ##  
-This package can be used as Component or Plugin. 
+This package can be used as Component or Plugin, that is also a wrapper for tesseract.js
 
 ## **Note**: ## 
 I've tested in VueJS 2. That was okay after all.
